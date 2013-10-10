@@ -39,6 +39,21 @@ In your Ember Model
 
 When you do `model.get('comments')` it will fire a request to `'/comments?ids=[1,2,3]`
 
+# Embedding Ember.js into an existing Rails app
+
+You can embed Ember.js on a subsection of a page instead of the default `<body>` by specifying the `rootElement` property on your Ember application object:
+
+    var App = Ember.Application.create({
+      rootElement: '#ember-app'
+    });
+    
+If this is the case you may not want Ember changing the URL:
+
+    App.Router.reopen({
+      location: 'none'
+    });
+
+This can be a good starting point for gradually migrating an existing Rails app to Ember.js.
 
 # Contributing
 
