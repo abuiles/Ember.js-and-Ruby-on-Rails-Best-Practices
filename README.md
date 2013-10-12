@@ -55,6 +55,11 @@ If this is the case you may not want Ember changing the URL:
 
 This can be a good starting point for gradually migrating an existing Rails app to Ember.js.
 
+# Read
+
+* [Ember.js Concepts for Rails Developers - Matthew Lehner](http://matthewlehner.net/ember-js-concepts-for-rails-devs)
+* [Ember Routing: The When and Why of Nesting - Hashrocket Blog](http://hashrocket.com/blog/posts/ember-routing-the-when-and-why-of-nesting)
+
 # Contributing
 
 Feel free to open tickets or send pull requests with improvements.
