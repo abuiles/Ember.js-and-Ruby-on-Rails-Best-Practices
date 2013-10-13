@@ -65,6 +65,9 @@ This can be a good starting point for gradually migrating an existing Rails app 
 * [Ember.js Concepts for Rails Developers - Matthew Lehner](http://matthewlehner.net/ember-js-concepts-for-rails-devs)
 * [Ember Routing: The When and Why of Nesting - Hashrocket Blog](http://hashrocket.com/blog/posts/ember-routing-the-when-and-why-of-nesting)
 
+# Watch
+* [GoGaRuCo 2013 - A tale of two MVC's by Yehuda Katz](http://www.youtube.com/watch?v=s1dhXamEAKQ)
+
 
 # Contributing
 
