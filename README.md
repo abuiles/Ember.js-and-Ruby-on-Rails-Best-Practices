@@ -1,12 +1,17 @@
-# Prelude
-A bunch of Rails developers have started to pickup this awesome Ember thing.
-Though when we start to work on it, there is always the question on
-how to map equivalent functionalities. For example, how can I do a
-link_to in Ember? How do I handle relationships? etc.
+# Intro
+If you are a Ruby on Rails developer who is just getting started with Ember sometimes you would want to map 
+equivalent Rails functionalities into Ember (e.g How can I do a `link_to`?)
 
-The Ember-Rails Style guide aims to be a community generated guide,
-collecting knowledge from all the Rails developers out there who have
-started to work with Ember.
+The Ember-Rails Style guide aims to be a community generated guide to make easier for Rails developers to get started
+with Ember.
+
+# Understanding Ember Concepts (WIP)
+# Rails Model to Ember Model.
+# Rails Controllers
+# Rails Views
+# Rails Helpers
+# Testing
+
 
 # Routes
 * Try to avoid nested routes
@@ -59,6 +64,7 @@ This can be a good starting point for gradually migrating an existing Rails app 
 
 * [Ember.js Concepts for Rails Developers - Matthew Lehner](http://matthewlehner.net/ember-js-concepts-for-rails-devs)
 * [Ember Routing: The When and Why of Nesting - Hashrocket Blog](http://hashrocket.com/blog/posts/ember-routing-the-when-and-why-of-nesting)
+
 
 # Contributing
 
