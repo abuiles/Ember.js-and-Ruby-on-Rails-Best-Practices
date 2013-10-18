@@ -68,6 +68,24 @@ This can be a good starting point for gradually migrating an existing Rails app 
 # Watch
 * [GoGaRuCo 2013 - A tale of two MVC's by Yehuda Katz](http://www.youtube.com/watch?v=s1dhXamEAKQ)
 
+# Exceptions
+
+`Assertion failed: The response from a findAll must be an Array, not undefined`
+
+This issue occur because in the serializer extractArray is returning `undefined`. The problem might be related with the way in which
+you declared your relationship, tha name of the model in the hasMany, belongTo has to be camelized.
+
+The following code might raise that exception 
+
+       App.Band = DS.Model.extend({
+          songs: DS.hasMany('Song')
+       }); 
+
+       App.Song = DS.Model.extend({
+          band: DS.belongsTo('band')
+       });
+
+See the way in which the songs relationship is defined `songs: DS.hasMany('Song')` it has to be `songs: DS.hasMany('song')`
 
 # Contributing
 
